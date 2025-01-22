@@ -9,10 +9,10 @@
 # include "stdio.h"
 
 int main(void) {
+	setvbuf(stdout, NULL, _IONBF, 0);
 	float num1,num2 ;
 	char operator;
 	printf("Enter operator either + or - or * or divide : ");
-	fflush(stdout);
 	scanf("%c", &operator);
 	printf("Enter two operands: ");
 	scanf("%f %f", &num1,&num2);

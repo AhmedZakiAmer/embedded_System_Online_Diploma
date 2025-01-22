@@ -18,7 +18,7 @@ int main(void) {
 	} else if (num1 < 0) {
 		printf("%.2f is negative.", num1);
 	} else {
-		printf("you entered %d",num1);
+		printf("you entered Zero");
 	}
 
 
