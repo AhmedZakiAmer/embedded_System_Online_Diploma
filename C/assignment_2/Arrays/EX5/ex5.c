@@ -9,7 +9,7 @@
 
 int main(void) {
 	setvbuf(stdout, NULL, _IONBF, 0);
-	int i, j, n, m;
+	int i, n, m;
 	printf("Enter number of elements : ");
 	scanf("%d", &n);
 	int arr[n];
@@ -20,7 +20,7 @@ int main(void) {
 	scanf("%d", &m);
 	for (i = 0 ; i < n; ++i) {
 		if (arr[i] == m) {
-			printf("%d", i+1);
+			printf("number found at loc = %d", i+1);
 			break;
 		}
 	}
