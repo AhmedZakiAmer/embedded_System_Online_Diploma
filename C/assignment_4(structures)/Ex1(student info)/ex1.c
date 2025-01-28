@@ -25,8 +25,8 @@ int main(void){
 	scanf("%f",&student.marks);
 	printf("displaying info\n");
 	printf("name: %s\n",student.name);
-	printf("name: %d\n",student.roll);
-	printf("name: %.2f\n",student.marks);
+	printf("roll: %d\n",student.roll);
+	printf("marks: %.2f\n",student.marks);
 
 	return 0;
 }
